@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Rocket-Lab</title>
+    <meta name="description" content="Привлечение клиентов в бизнес, технологиями будущего!">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="img/logoss.png">
+    <link rel="shortcut icon" href="img/logoss.png" type="image/x-icon">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#19071b">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#19071b">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#19071b">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link rel="stylesheet" href="libs/mmenu/dist/jquery.mmenu.all.css">
+
+</head>
+
+<body>
+    <div class="space"></div>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+    <div id="my-page">
+        <div id="phone-modal" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="close">&times;</span>
+                        <h1 class="h1">Оставьте заявку!</h1>
+                        <h3 class="h3">Мы перезвоним Вам через 15 минут!</h3>
+                    </div>
+                    <div class="col-sm-12 modal-form">
+                        <form action="mail.php" class="popupform" id="form_pop_5" method="post">
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="text" name="phone" placeholder="Телефон">
+                            <input type="hidden" name="calc_type" class="calc_type" value="Офис">
+                            <input type="hidden" name="calc_system_1" class="calc_system_1" value="">
+                            <input type="hidden" name="calc_system_2" class="calc_system_2" value="">
+                            <input type="hidden" name="calc_system_3" class="calc_system_3" value="">
+                            <input type="hidden" name="ploshc" class="ploshc" value="">
+                            <input type="file" id="uploaded_file2" name="uploaded_file2" style="display:none;">
+                            <input class="sbmt" type="submit" value="Заказать звонок">
+                            <input type="hidden" name="whatForm" value="Получить рассчет">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header container-fluid">
+            <div class="col-12">
+                <div class="circle"></div>
+                <nav id="my-menu">
+                    <a href="../main/index.html" class="logo"><img src="img/logosss.png" alt="logo"></a>
+                    <ul style="width: 100%">
+                        <li class="menu-item"><a href="../about/index.html" class="transition">О нас</a></li>
+                        <li class="menu-item"><a href="../amentions/index.html" class="transition disabled">Услуги</a></li>
+                        <li class="menu-item"><a href="../portfolio/index.html" class="transition">Портфолио</a></li>
+                        <li class="menu-item"><a href="../contacts/index.html" class="transition">Контакты</a></li>
+                        <li class="phone">
+                            <p>+7 (499) 648一69一91</p>
+                        </li>
+                        <li class="phone-box"><a id="modal-button" onclick="modal__main()">Обратный вызов</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                    <div class="z"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="content">
+        <div class="container">
+            <!--
+            <div class="row intro">
+                <div class="col-md-2 col-sm-12 intro-heading">
+                    <p class="h2">Мы создаем маркетинг заново</h2>
+                </div>
+                <div class="col-md-10 col-sm-12 intro-images row">
+                    <div class="col-sm-6">
+                        <div class="intro-wrapper">
+                            <img src="img/img2.jpg" alt="image">
+                            <div class="cross"></div>
+                        </div>
+                        <div class="intro-wrapper">
+                            <img src="img/img3.jpg" alt="image">
+                            <div class="cross"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="intro-wrapper">
+                            <img src="img/img1.jpg" alt="image">
+                            <div class="cross"></div>
+                        </div>
+                    </div>
+                </div>
+			</div>-->
+
+            <section class="sect_1">
+                <p class="sect_1-heading">Мы разделили 100% наших услуг на 2 направления</p>
+                <div class="row sect_1-blocks">
+                    <div class="col-sm-6">
+                        <p class="h3" style="font-size: 30px">Маркетинг и продажи</p>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block">
+                                    <h6 style="font-size: 16px">SMM</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block1">
+                                    <h6 style="font-size: 16px">Контекстная реклама</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block2">
+                                    <h6 style="font-size: 16px">SEO</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block3">
+                                    <h6 style="font-size: 16px">Управление репутации</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="h3" style="font-size: 30px">Разработка</p>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block">
+                                    <h6 style="font-size: 16px">Сайты</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block">
+                                    <h6 style="font-size: 16px">Мобильные приложения</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block">
+                                    <h6 style="font-size: 16px">Дополненная реальность</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 block-item">
+                                <div class="block">
+                                    <h6 style="font-size: 16px">Автоматизация бизнеса</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_1 -->
+            <section class="sect_2">
+                <div class="container">
+                    <p class="h2">И привязали оплату всех услуг к результату</p>
+                    <div class="row sect_2-block">
+                        <div class="col-sm-6 ">
+                            <p class="sect_2-block-text">Мы уверены в своих силах, поэтому прописываем в договоре условия штрафов или полного возврата средств, если не выполним задачу </p>
+                            <div class="row sect_2-images">
+                                <div class="col-sm-6">
+                                    <div class="block3-3">
+                                        <h6 style="font-size: 16px">Определяем точки роста</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="block1-1">
+                                        <h6 style="font-size: 16px">Оговариваем план продаж</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="block2-2">
+                                        <h6 style="font-size: 16px">Достигаем оговоренных показателей</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="block1-1">
+                                        <h6 style="font-size: 16px">Штраф или возврат при не выполнении обещаний</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 sect_2-main-image">
+                            <img src="img/designer.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_2 -->
+
+            <section class="sect_3">
+                <div class="container">
+                    <p class="h2">Заинтересовались какой-нибудь услугой?</p>
+                    <div class="row sect_3-blocks">
+                        <div class="col-sm-7 window">
+                            <p class="h3">Оставь заявку в 1 клик и получи консультацию и аудит бизнеса в подарок!</p>
+                            <form>
+                                <div class="inputs">
+                                    <input type="text" name="name" placeholder="Имя">
+                                    <input type="text" name="Email" placeholder="Email">
+                                    <input type="text" name="phone" placeholder="Телефон">
+                                </div>
+                                <button type="button" name="button">Заказать консультацию</button>
+                            </form>
+                        </div>
+                        <div class="col-sm-5 window_2">
+                            <p class="h3">Или посмотри результаты наших клиентов</p>
+                            <button type="button" name="button">Портфолио</button>
+                            <img src="css/images/strelki2.gif" alt="" class="arrow">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.min.css">
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/mmenu/dist/jquery.mmenu.all.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true,
+            callback: function(box) {},
+            scrollContainer: null
+        });
+        wow.init();
+    </script>
+    <script src="js/jquery.maskedinput.js"></script>
+</body>
+
+</html>

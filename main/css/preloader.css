@@ -1,0 +1,43 @@
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1002;
+    background-color: #000;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    opacity: 1;
+    visibility: visible;
+    font-weight: bold;
+    cursor: none;
+}
+
+#preloader.done {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#loader {
+    padding: 16px;
+}
+
+#typed::before {
+    content: ">";
+    margin-right: 10px;
+}
+
+#typed {
+    color: #ffffff;
+    margin-right: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.typed-cursor {
+    padding: 0px 1px;
+    color: #ffffff;
+    background-color: #ffffff;
+    text-shadow: none;
+}

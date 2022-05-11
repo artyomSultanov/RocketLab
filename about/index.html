@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Rocket-Lab</title>
+    <meta name="description" content="Привлечение клиентов в бизнес, технологиями будущего!">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="img/logoss.png">
+    <link rel="shortcut icon" href="img/logoss.png" type="image/x-icon">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#19071b">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#19071b">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#19071b">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link rel="stylesheet" href="libs/mmenu/dist/jquery.mmenu.all.css">
+</head>
+
+<body>
+
+    <div class="space"></div>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div id="my-page">
+        <div id="phone-modal" class="modal">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="close">&times;</span>
+                        <h1 class="h1">Оставьте заявку!</h1>
+                        <h3 class="h3">Мы перезвоним Вам через 15 минут!</h3>
+                    </div>
+                    <div class="col-sm-12 modal-form">
+                        <form action="mail.php" class="popupform" id="form_pop_5" method="post">
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="text" name="phone" placeholder="Телефон">
+                            <input type="hidden" name="calc_type" class="calc_type" value="Офис">
+                            <input type="hidden" name="calc_system_1" class="calc_system_1" value="">
+                            <input type="hidden" name="calc_system_2" class="calc_system_2" value="">
+                            <input type="hidden" name="calc_system_3" class="calc_system_3" value="">
+                            <input type="hidden" name="ploshc" class="ploshc" value="">
+                            <input type="file" id="uploaded_file2" name="uploaded_file2" style="display:none;">
+                            <input class="sbmt" type="submit" value="Заказать звонок">
+                            <input type="hidden" name="whatForm" value="Получить рассчет">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header container-fluid">
+            <div class="col-12">
+                <div class="circle"></div>
+                <nav id="my-menu">
+                    <a href="../main/index.html" class="logo"><img src="img/logosss.png" alt="logo"></a>
+                    <ul style="width: 100%">
+                        <li class="menu-item"><a href="../about/index.html" class="transition disabled">О нас</a></li>
+                        <li class="menu-item"><a href="../amentions/index.html" class="transition">Услуги</a></li>
+                        <li class="menu-item"><a href="../portfolio/index.html" class="transition">Портфолио</a></li>
+                        <li class="menu-item"><a href="../contacts/index.html" class="transition">Контакты</a></li>
+                        <li class="phone">
+                            <p>+7 (499) 648一69一91</p>
+                        </li>
+                        <li class="phone-box"><a id="modal-button" onclick="modal__main()">Обратный вызов</a></li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <div class="x"></div>
+                    <div class="y"></div>
+                    <div class="z"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="my-content">
+        <div class="container">
+            <div class="intro">
+                <h1 class="h1"> Команда Rocket Lab — это </h1>
+                <div class="row intro-line">
+                    <div class="col-sm-6">
+                        <img src="img/intro-line_img1.png" alt="image">
+                        <h2>5 лет</h2>
+                        <br>
+                        <h4> работы в маркетинге и разработке</h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/intro-line_img2.png" alt="image">
+                        <h2>100%</h2>
+                        <br>
+                        <h4>гарантии результата на все услуги</h4>
+                    </div>
+                </div>
+                <div class="row intro-line">
+                    <div class="col-sm-6">
+                        <img src="img/intro-line_img.png" alt="image">
+                        <h2>650 +</h2>
+                        <br>
+                        <h4> выполненных работ</h4>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/intro-line_img3.png" alt="image">
+                        <h2>400 +</h2>
+                        <br>
+                        <h4>счастливых клиентов</h4>
+                    </div>
+                </div>
+            </div>
+
+            <section class="sect_1">
+                <div class="h2">Почему клиенты Rocket Lab получают до 200% больше заказов?</div>
+      
+                <div class="row">
+                    <div class="col-sm-6 col-12 image-about">
+                        <img src="img/WHY.png" alt="image">
+                    </div>
+                    <div class="col-sm-6 col-12 sect_1-text">
+                        <div>
+                            <p style="font-size:23px;line-height:1.5">Команда Rocket lab использует и внедряет технологию проактивного маркетинга в бизнес.</p> <br>
+                            <br>
+                            <p style="font-size:23px;line-height:1.5"> Этот метод прогнозирует будущий спрос на продукты или услуги, что помогает определить интересы клиентов на 5 шагов раньше конкурентов!
+                            </p>
+                            <!--<br>
+                            <br>
+                            <p style="font-size:16px">По итогам сотрудничества, наши клиенты гарантированно получают:</p>
+                            <ul class="pluses" style="font-size:16px">
+                                <li>Рост конверсии трафика в заказы или звонки, а значит рост продаж</li>
+                                <li>Снижение стоимости привлечения клиента</li>
+                                <li>Улучшение поведенческих факторов ранжирования сайта</li>
+                                <li>Улучшение usability (удобства использования) вашего сайта</li>
+                                <li>Рост узнаваемости и популярности бренда</li> 
+                            </ul>-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_1 -->
+            <section>
+                <div id="f5" class="block5-1 block5-2">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col">
+                                <div class="h2" style="font-size:40px !important">По итогам сотрудничества</div>
+                                <p class="colortext_1" style="font-size: 20px">Клиенты Rocket Lab гарантированно получают</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="item">
+                                    <img src="img/rost.png" alt="">
+
+                                    <h5 style="font-size:14px;line-height:1.6">Рост конверсии трафика в заказы ,<br> а значит рост продаж</h5>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="item item_c">
+                                    <img src="img/price.png" alt="">
+
+                                    <h5 style="font-size:14px;line-height:1.6">Снижение стоимости <br> привлечения клиента</h5>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="item item_r">
+                                    <img src="img/popular.png" alt="">
+
+                                    <h5 style="font-size:14px;line-height:1.6">Рост узнаваемости <br> и популярности бренда</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_1new -->
+
+            <section class="sect_2">
+                <div class="h2">Как мы работаем?</div>
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="h3">Маркетинг преимуществ</div>
+                        <p class="sect_2-text">Совершенно недостаточно хорошего продвижения, если у вас нет очевидного ответа на вопрос «Почему нужно покупать у вас?».</p>
+                        <p class="sect_2-text">Мы помогаем найти ответ на этот вопрос и понятно донести его в ваших маркетинговых коммуникациях.</p>
+                        <p class="sect_2-text">Это позволяет увеличивать конверсию на всех этапах воронки.</p>
+                    </div>
+                    <div class="col-md-7 col-sm-12 sect_2-right">
+                        <div class="h3">Измеримый подход</div>
+                        <p class="sect_2-text">Мы измеряем все этапы воронки продаж от посетителей до повторных покупок и рекомендаций. Ищем узкие места, внедряем изменения, максимизируем конверсию.</p>
+                        <div class="block_1">
+                            <div class="level">Посещения</div>
+                            <div class="block-wrapper">
+                                <p class="block-text">На этапе привлечения посетителей мы измеряем отказы и вовлеченность, чтобы отсечь все нецелевые посещения.</p>
+                            </div>
+                        </div>
+                        <div class="block_2">
+                            <div class="level">Обращения</div>
+                            <div class="block-wrapper">
+                                <p class="block-text">Чтобы увеличить целевые обращения, мы измеряем количество и качество обращений из каждого канала, а также работаем над конверсией страниц.</p>
+                            </div>
+                        </div>
+                        <div class="block_3">
+                            <div class="level">Продажи</div>
+                            <div class="block-wrapper">
+                                <p class="block-text">Чтобы увеличить первичные продажи, мы измеряем доходность каждого канала обращений и прибыль с продаж.</p>
+                            </div>
+                        </div>
+                        <div class="block_4">
+                            <div class="level">Повторные продажи и рекомендации</div>
+                            <div class="block-wrapper">
+                                <p class="block-text">Мы измеряем объем повторных продаж и рекомендаций, считаем чистую прибыль от маркетинга. Помогаем улучшать стратегию, продукт и маркетинговые коммуникации.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_2 -->
+
+            <section class="sect_3">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-3 col-12">
+                        <p class="rotate-heading">Наша команда</p>
+                    </div>
+                    <div class="col-xl-7 col-lg-9 col-12 gallery">
+                        <div class="gallery-item">
+                            <img src="img/as.jpg" alt="image">
+                            <div class="gallery-content">
+                                <div class="title">It's a title</div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/artyoms.jpg" alt="image">
+                            <div class="gallery-content">
+                                <div class="title">It's a title</div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/is.jpg" alt="image">
+                            <div class="gallery-content">
+                                <div class="title">It's a title</div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/js.jpg" alt="image">
+                            <div class="gallery-content">
+                                <div class="title">It's a title</div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/ks.jpg" alt="image">
+                            <div class="gallery-content">
+                                <div class="title">It's a title</div>
+                            </div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/ss.jpg" alt="image">
+                            <div class="gallery-content">
+                                <div class="title">It's a title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_3 -->
+
+
+            <section class="sect_4">
+                <div class="h3">Готов постигать искусство привлечения клиентов вместе с профессионалами?<br><br>Что интересует больше всего?
+                </div>
+                <div class="row buttons">
+                    <div class="col-6">
+                        <button id="window__btn__1" class="butt">Разработка</button>
+                    </div>
+                    <div class="col-6">
+                        <button id="window__btn__2" class="butt">Привлечение клиентов</button>
+                    </div>
+                </div>
+                <div class="row window window__1">
+                    <div class="col-md-8 col-sm-12">
+                        <p class="window-text">Получи бесплатную консультацию у нашего специалиста или подпишись на рассылку обучающих материалов по разработке <br> P.S. Усли увидите от нас спам - окажем любую услугу за наш счёт!</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <form>
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="text" name="Email" placeholder="Email">
+                            <input type="text" name="phone" placeholder="Телефон">
+                        </form>
+                    </div>
+                </div>
+                <div class="row window window__2">
+                    <div class="col-md-8 col-sm-12">
+                        <p class="window-text">Получи бесплатную консультацию у нашего специалиста или подпишись на рассылку обучающих материалов по привлечению клиентов <br> P.S. Усли увидите от нас спам - окажем любую услугу за наш счёт!</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <form>
+                            <input type="text" name="name" placeholder="Имя">
+                            <input type="text" name="Email" placeholder="Email">
+                            <input type="text" name="phone" placeholder="Телефон">
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- sect_4 -->
+            <div id="my-footer"></div>
+        </div>
+    </div>
+    <div id="overlay">
+        <div id="rocket" class="d-none d-md-block"><img src="img/rocket.png"></div>
+    </div>
+
+    <script src="js/skyrocket-comingsoon.js"></script>
+    <script src="js/comingsoon.js"></script>
+
+    <link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.min.css">
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/mmenu/dist/jquery.mmenu.all.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        var CSStransforms = anime({
+            targets: '#rocket',
+            duration: 20000,
+            translateX: 2100,
+            translateY: -700,
+            easing: 'linear',
+            rotateX: 10,
+            loop: true
+        });
+
+
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true,
+            callback: function(box) {},
+            scrollContainer: null
+        });
+        wow.init();
+    </script>
+    <script src="js/jquery.maskedinput.js"></script>
+</body>
+
+</html>
